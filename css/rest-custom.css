@@ -244,6 +244,12 @@ a {
     padding: 10px 15px;
 }
 
+.user-pic-small {
+  height:25px;
+  width:25px;
+}
+
+
 /* CSS from v3 snipp */
 .user-row {
     margin-bottom: 14px;
@@ -275,6 +281,9 @@ a {
 .table-user-information > tbody > tr > td {
     border-top: 0;
 }
+
+
+
 /* Workroom class */
 .timeline {
     list-style: none;
