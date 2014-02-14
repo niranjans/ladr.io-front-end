@@ -108,6 +108,9 @@
 a {
 	color: #333;
 }
+h1,h2,h3,h4{
+	color:#343434 ;
+}
 /*.tag {
 padding: 3px;
 background-color: #F2F2F2;
@@ -189,7 +192,7 @@ margin: 1px auto 5px auto;
 	position: relative;
 	-webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
 	box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
-	margin-bottom: 3.5em;
+	margin-bottom: 2.5em;
 }
 
 .center{
