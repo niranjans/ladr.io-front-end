@@ -48,185 +48,136 @@
 		</div>
 	</div>
 
-	<div class="container-fluid">
+	<div class="container">
+		<p>
+			<h3>This blog post shows a few different types of content that's supported and styled with Bootstrap.</h1>
 
-		<div class="row">
-			<div class="col-md-9">
-				<h1>This blog post shows a few different types of content that's supported and styled with Bootstrap.</h1>
-				<div class="panel panel-default">
+				<p>This blog post shows a few different types of content that's supported and styled with Bootstrap.This blog post shows a few different types of content that's supported and styled with Bootstrap.This blog post shows a few different types of content that's supported and styled with Bootstrap.</p>
+				<div class="btn btn-success">$350</div>
+				<div class="tag">RubyRuby RubyRuby</a></div>
+				<div class="tag">RubyRuby RubyRuby</a></div>
+				<p class="blog-post-meta pull-right">2 hours ago by <a href="#">Mark</a></p>
+			</p>
+			<hr>
+			<div class="row">
+				<div class="col-md-8">
 					<div class="panel-body">
-						<p>This blog post shows a few different types of content that's supported and styled with Bootstrap.This blog post shows a few different types of content that's supported and styled with Bootstrap.This blog post shows a few different types of content that's supported and styled with Bootstrap.</p>
-						<div class="btn btn-success">$350</div>
-						<div class="tag">RubyRuby RubyRuby</a></div>
-						<div class="tag">RubyRuby RubyRuby</a></div>
-						<p class="blog-post-meta pull-right">2 hours ago by <a href="#">Mark</a></p>
+						<div class="badge">
+							Avg Price: $450
+						</div>
+						<div class="badge">
+							Min Price: $450
+						</div>
+						<div class="badge">
+							Max Price: $450
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+						<i class="fa fa-mail-forward"></i> I'm Interested
+					</button>
+				</div>
+			</div>
+			<!-- Modal -->
+			<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+							<h2 class="modal-title" id="myModalLabel">Send Proposal</h2>
+						</div>
+						<div class="modal-body">
+
+							<div class="input-group">
+								<span class="input-group-addon">$</span>
+								<input type="text" class="form-control" placeholder="Amount">
+								<span class="input-group-addon">.00</span>
+							</div>
+
+							<hr>
+
+							<div class="input-group">
+								<textarea class="form-control" rows="3" cols="100" placeholder="Message (Optional)"></textarea>
+							</div>
+
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+							<button type="button" class="btn btn-primary">Send</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<hr>
+			<div class="custom-box">
+				<div class="row">
+					<div class="col-md-2">
+						<a href="#">
+							<img src="http://lorempixel.com/150/150/" width="150px" height="150px" alt="profile image">
+						</a>
+						<h5>Reps:  <span class="badge">20</span></h5>
+						<a href="#" class="plain-box"><i class="fa fa-linkedin"></i></a>
+						<a href="#" class="plain-box"><i class="fa fa-twitter"></i></a>
+						<a href="#" class="plain-box"><i class="fa fa-github"></i></a>
+						<small class="text-muted pull-right"> Last Seen: 5 hours ago </small>
+					</div>
+					<div class="col-md-10">
+						<h4> Shayon Mukherjee </h4>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient.</p>
+						<hr>
+						<h4> Optional Message </h4>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient.</p>
+						<hr>
+						<h4> Skills </h4>
+						<div class="tag">RubyRuby</a></div>
+						<div class="tag">JavaJava</a></div>
+						<div class="tag">RubyRuby</a></div>
+						<div class="tag">JavaJava</a></div>
+						<div class="tag">RubyRuby</a></div>
+						<div class="tag">JavaJava</a></div>
+						<div class="tag">RubyRuby</a></div>
+						<div class="tag">JavaJava</a></div>
 					</div>
 				</div>
 				<hr>
-				<!-- Button trigger modal -->
 				<div class="row">
-					<div class="col-md-8">
-						<div class="panel-body">
-							<div class="badge">
-								Avg Price: $450
-							</div>
-							<div class="badge">
-								Min Price: $450
-							</div>
-							<div class="badge">
-								Max Price: $450
-							</div>
-						</div>
+					<div class="col-md-4">
+						<p><strong>Price: </strong>$350</p>
 					</div>
 					<div class="col-md-4">
-						<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
-							<i class="fa fa-mail-forward"></i> I'm Interested
-						</button>
+						<p><strong>Turnaround: </strong> 3 days</p>
 					</div>
+
+					<div class="col-md-4">
+						<p>
+							<a href="#" class="btn btn-success"><i class="fa fa-thumbs-up"></i> Accept</a>
+							<a href="#" class="btn btn-danger"><i class="fa fa-thumbs-down"></i> Reject</a>
+							<a href="#" class="btn btn-info"><i class="fa fa-comments"></i> Message</a>
+						</p>
+					</div>
+
 				</div>
-				<!-- Modal -->
-				<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-					<div class="modal-dialog">
-						<div class="modal-content">
-							<div class="modal-header">
-								<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-								<h2 class="modal-title" id="myModalLabel">Send Proposal</h2>
-							</div>
-							<div class="modal-body">
-
-								<div class="input-group">
-									<span class="input-group-addon">$</span>
-									<input type="text" class="form-control" placeholder="Amount">
-									<span class="input-group-addon">.00</span>
-								</div>
-
-								<hr>
-
-								<div class="input-group">
-									<textarea class="form-control" rows="3" cols="100" placeholder="Message (Optional)"></textarea>
-								</div>
-
-							</div>
-							<div class="modal-footer">
-								<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-								<button type="button" class="btn btn-primary">Send</button>
-							</div>
-						</div>
-					</div>
-				</div>	
-
-
-				<hr>
-
-
-				<div class="panel panel-primary">
-					<div class="panel-heading">
-						<h3 class="panel-title">Lorem Ipsum </h3>
-					</div>
-					<div class="media panel-body">
-						<div class="pull-left">
-							<a href="#">
-								<img class="media-object profile-image-thumbnail" src="http://lorempixel.com/400/200/" width="200px" height="150px" alt="profile image">
-							</a>
-
-							<h5>Reps:  <span class="badge">20</span></h5>
-							<a href="#" class="plain-box"><i class="fa fa-linkedin"></i></a>
-							<a href="#" class="plain-box"><i class="fa fa-twitter"></i></a>
-							<a href="#" class="plain-box"><i class="fa fa-github"></i></a>
-						</div>
-						<div class="media-body">
-							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,</p>
-							<hr>
-							<h4> Optional Message </h4>
-								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500cxvcxs</p>
-							<hr>
-							<div class="row">
-								<div class="col-md-2 ">
-									<p class="title">Skills</p>
-								</div>
-								<div class="col-md-8" >
-									<div class="tag">RubyRuby</a></div>
-									<div class="tag">JavaJava</a></div>
-									<div class="tag">RubyRuby</a></div>
-									<div class="tag">JavaJava</a></div>
-									<div class="tag">RubyRuby</a></div>
-									<div class="tag">JavaJava</a></div>
-									<div class="tag">RubyRuby</a></div>
-									<div class="tag">JavaJava</a></div>
-								</div>
-							</div>
-							<div class="pull-right">
-								<p>Last Seen 3 hours ago</p>
-								<p><a href="#" class="btn btn-success"><i class="fa fa-thumbs-up"></i> Accept</a>
-									<a href="#" class="btn btn-danger"><i class="fa fa-thumbs-down"></i> Reject</a></p>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="panel panel-primary">
-							<div class="panel-heading">
-								<h3 class="panel-title">Lorem Ipsum </h3>
-							</div>
-							<div class="media panel-body">
-								<div class="pull-left">
-									<a href="#">
-										<img class="media-object profile-image-thumbnail" src="http://lorempixel.com/400/200/" width="200px" height="150px" alt="profile image">
-									</a>
-
-									<h5>Reps:  <span class="badge">20</span></h5>
-									<a href="#" class="plain-box"><i class="fa fa-linkedin"></i></a>
-									<a href="#" class="plain-box"><i class="fa fa-twitter"></i></a>
-									<a href="#" class="plain-box"><i class="fa fa-github"></i></a>
-								</div>
-								<div class="media-body">
-									<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,</p>
-
-									<div class="row">
-										<div class="col-md-2 ">
-											<p class="title">Skills</p>
-										</div>
-										<div class="col-md-8" >
-											<div class="tag">RubyRuby</a></div>
-											<div class="tag">JavaJava</a></div>
-											<div class="tag">RubyRuby</a></div>
-											<div class="tag">JavaJava</a></div>
-											<div class="tag">RubyRuby</a></div>
-											<div class="tag">JavaJava</a></div>
-											<div class="tag">RubyRuby</a></div>
-											<div class="tag">JavaJava</a></div>
-										</div>
-									</div>
-									<br \>
-									<div class="pull-right">
-										<p>Last Seen 3 hours ago</p>
-										<p>
-											<a href="#" class="btn btn-success"><i class="fa fa-thumbs-up"></i> Accept</a>
-											<a href="#" class="btn btn-danger"><i class="fa fa-thumbs-down"></i> Reject</a>
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-
-
-					</div><!-- /.row -->
-				</div><!-- /.container -->
-			</div>
-			<div class="custom-footer">
-				<p>Ladr.io | Copyright © All Rights Reserved</p>
-				<p>
-					<a href="#">Back to top</a>
-				</p>
 			</div>
 
+		</div>
+	</div><!-- /.row -->
+</div><!-- /.container -->
+</div>
+<div class="custom-footer">
+	<p>Ladr.io | Copyright © All Rights Reserved</p>
+	<p>
+		<a href="#">Back to top</a>
+	</p>
+</div>
 
 
 
-			<!-- Bootstrap core JavaScript
-			================================================== -->
-			<!-- Placed at the end of the document so the pages load faster -->
-			<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-			<script src="js/bootstrap.js"></script>
-		</body>
-		</html>
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>
